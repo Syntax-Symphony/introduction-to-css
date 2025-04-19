@@ -1,0 +1,58 @@
+/* General page styling */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+/* Header styling */
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Styling the content section */
+.content {
+    margin: 20px;
+    padding: 15px;
+    background-color: white;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+}
+
+/* Styling paragraphs inside the content */
+.content p {
+    font-size: 18px;
+    color: #333;
+}
+
+/* Styling the image */
+img {
+    width: 100%;
+    max-width: 600px; /* Limit the image width to 600px */
+    height: auto;
+    border-radius: 8px;
+    border: 4px solid #ddd;
+    display: block;
+    margin: 20px 0; /* Add space above and below the image */
+}
+
+/* Footer styling */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+/* ID selector for a specific element */
+#specific {
+    color: blue;
+    font-size: 22px;
+}
